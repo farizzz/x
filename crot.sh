@@ -14,6 +14,14 @@ echo Install FF
 sleep 3
 apt-get install firefox -y
 sleep 1
+mkdir Desktop
+cd Desktop
+wget https://raw.githubusercontent.com/farizzz/x/master/ff.sh
+chmod +x ff.sh
+wget https://raw.githubusercontent.com/farizzz/x/master/FF-Profile-Manager.sh
+chmod +x FF-Profile-Manager.sh
+cd
+sleep 1
 apt-get install sl -y
 sleep 1
 sl -l
