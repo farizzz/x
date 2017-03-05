@@ -9,14 +9,11 @@ apt-get install nano -y
 sleep 1
 echo Removing Screensaver
 apt-get remove xscreensaver -y
-echo Installing Chromium-Browser
-sleep 1
-apt-get install chromium-browser -y
 sleep 1
 echo Install FF
 sleep 3
 apt-get install firefox -y
 sleep 1
-apt-get install sl
+apt-get install sl -y
 sleep 1
 sl -l
